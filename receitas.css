@@ -1,0 +1,125 @@
+* {
+    font-family: montserrat;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 100%;
+    background-color: #FFC107;
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 364px;
+}
+
+.menu {
+    background-color: #FFA000;
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    padding: 8px 24px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: lowercase;
+    color: #FDFDFD;
+    transition: 0.25s;
+
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 88px;
+}
+
+section>h2 {
+    width: 100%;
+    padding-left: 94px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-transform: lowercase;
+
+    color: #FFA000;
+}
+
+div.galeria {
+    width: 100%;
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+div.single-galeria {
+    width: 100%;
+    max-width: 400px;
+    margin: 32px;
+    text-align: center;
+}
+
+div.single-galeria img {
+    width: 100%;
+}
+
+div.single-galeria p {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #000000;
+    line-height: 32px;
+    margin: 16px 0;
+}
+
+div.single-galeria a {
+    padding: 8px 16px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: lowercase;
+
+    color: #FFFFFF;
+    background-color: #176902;
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    background-color: #FFC107;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    color: #FDFDFD;
+}
+
+footer img {
+    width: 324px;
+    max-width: 648px;
+}
+
+footer p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: lowercase;
+    padding-left: 16px;
+
+    color: #FFFFFF;
+}
